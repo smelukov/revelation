@@ -1,0 +1,2951 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file resolving absolute: lstatSync 1`] = `
+[
+  [
+    "/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving absolute: readFileSync 1`] = `[]`;
+
+exports[`file resolving absolute: realpathSync 1`] = `[]`;
+
+exports[`file resolving absolute: statSync 1`] = `
+[
+  [
+    "/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving extensions property: lstatSync 1`] = `
+[
+  [
+    "/1/2/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving extensions property: readFileSync 1`] = `[]`;
+
+exports[`file resolving extensions property: realpathSync 1`] = `[]`;
+
+exports[`file resolving extensions property: statSync 1`] = `
+[
+  [
+    "/1/2/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/baz/index.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/quux/index.css",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving mainFiles property: lstatSync 1`] = `
+[
+  [
+    "/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index.custom.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2/index.custom.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.custom.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving mainFiles property: readFileSync 1`] = `[]`;
+
+exports[`file resolving mainFiles property: realpathSync 1`] = `[]`;
+
+exports[`file resolving mainFiles property: statSync 1`] = `
+[
+  [
+    "/1/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index.custom.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/2/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.custom",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.custom.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/3/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving relative: lstatSync 1`] = `
+[
+  [
+    "/1/2/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`file resolving relative: readFileSync 1`] = `[]`;
+
+exports[`file resolving relative: realpathSync 1`] = `[]`;
+
+exports[`file resolving relative: statSync 1`] = `
+[
+  [
+    "/1/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/foo.js/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving modules property: lstatSync 1`] = `
+[
+  [
+    "/1/2/3/4/5/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving modules property: readFileSync 1`] = `[]`;
+
+exports[`packages modules resolving modules property: realpathSync 1`] = `[]`;
+
+exports[`packages modules resolving modules property: statSync 1`] = `
+[
+  [
+    "/1/2/3/4/5/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/baz/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json mainFields property: lstatSync 1`] = `
+[
+  [
+    "/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/baz.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json mainFields property: readFileSync 1`] = `
+[
+  [
+    "/node_modules/1/package.json",
+    "utf-8",
+  ],
+  [
+    "/node_modules/2/package.json",
+    "utf-8",
+  ],
+  [
+    "/node_modules/3/package.json",
+    "utf-8",
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json mainFields property: realpathSync 1`] = `[]`;
+
+exports[`packages modules resolving package.json mainFields property: statSync 1`] = `
+[
+  [
+    "/node_modules/1/baz",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/4/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/5/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json packageJSONModifier property: lstatSync 1`] = `
+[
+  [
+    "/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/1/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/2/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/node_modules/3/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json packageJSONModifier property: readFileSync 1`] = `
+[
+  [
+    "/node_modules/1/package.json",
+    "utf-8",
+  ],
+  [
+    "/node_modules/2/package.json",
+    "utf-8",
+  ],
+  [
+    "/node_modules/3/package.json",
+    "utf-8",
+  ],
+]
+`;
+
+exports[`packages modules resolving package.json packageJSONModifier property: realpathSync 1`] = `[]`;
+
+exports[`packages modules resolving package.json packageJSONModifier property: statSync 1`] = `
+[
+  [
+    "/node_modules/1/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`symlinks modules property: lstatSync 1`] = `
+[
+  [
+    "/1/2/3/4/5/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/original/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/original/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
+
+exports[`symlinks modules property: readFileSync 1`] = `[]`;
+
+exports[`symlinks modules property: realpathSync 1`] = `
+[
+  [
+    "/1/2/node_modules",
+  ],
+  [
+    "/1/2/bar.js",
+  ],
+  [
+    "/1/2/foo.js",
+  ],
+]
+`;
+
+exports[`symlinks modules property: statSync 1`] = `
+[
+  [
+    "/1/2/3/4/5/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/5/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/4/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/3/node_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/foo/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/foo",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/foo.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/custom_modules/bar/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/node_modules/bar.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/package.json",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/index",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/1/2/foo.js/index.js",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+]
+`;
