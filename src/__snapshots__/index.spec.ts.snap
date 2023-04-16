@@ -2513,6 +2513,24 @@ exports[`symlinks modules property: lstatSync 1`] = `
     },
   ],
   [
+    "/original/node_modules",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/original",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
+    "/",
+    {
+      "throwIfNoEntry": false,
+    },
+  ],
+  [
     "/1/2/custom_modules/bar",
     {
       "throwIfNoEntry": false,
