@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import {PackageJSONModifier} from "./index";
+import {PackageJSONModifier} from "./";
 
 export type Options = {
     fileSystem?: typeof fs;
@@ -106,12 +106,12 @@ export default class SyncResolver {
             return null;
         }
 
-        const result: RealpathResult = {
+        let result: RealpathResult = {
             stats,
             abs: absPath,
         };
 
-        const stack = [absPath];
+        let stack = [absPath];
         let cursor: string | undefined;
         const passed: string[] = [];
 
@@ -129,8 +129,10 @@ export default class SyncResolver {
                     stats: this.lstat(targetRealpath)!,
                     abs: targetRealpath,
                 };
-                this.realpathCache.set(absPath, newResult);
-                return newResult;
+                // this.realpathCache.set(absPath, newResult);
+                result = newResult;
+                stack = [targetRealpath];
+                continue;
             }
 
             if (cachedSymlink === null) {
@@ -167,10 +169,12 @@ export default class SyncResolver {
                     stats: this.lstat(targetRealpath)!,
                     abs: targetRealpath,
                 };
-                this.realpathCache.set(targetRealpath, newResult);
-                this.realpathCache.set(absPath, newResult);
+                // this.realpathCache.set(targetRealpath, newResult);
+                // this.realpathCache.set(absPath, newResult);
                 this.symlinkCache.set(cursor, realpath);
-                return newResult;
+                result = newResult;
+                stack = [targetRealpath];
+                continue;
             }
 
             const nextDir = path.resolve(cursor, '..');
@@ -287,7 +291,7 @@ export default class SyncResolver {
                 typeof packageJSON[field] === 'string'
             ) {
                 const resolved = this.resolveRelative(
-                    absPath,
+                    path.dirname(packageJSONPath),
                     packageJSON[field],
                 );
                 this.resolveFromPackageJSONCache.set(packageJSONPath, resolved);
