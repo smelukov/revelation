@@ -1,6 +1,6 @@
 {
   "name": "revelation-resolver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fast node.js modules resolve",
   "keywords": ["resolver", "module", "path", "fs"],
   "main": "dist/index.js",
