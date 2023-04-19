@@ -291,7 +291,7 @@ export default class SyncResolver {
   }
 
   private resolvePackage(basedir: string, request: string): string | null {
-    const cached = this.resolveNodeModuleCache.get(path.resolve(basedir, request));
+    const cached = this.resolveNodeModuleCache.get(`${basedir}|${request}`);
 
     if (cached !== undefined) {
       return cached;
@@ -305,7 +305,7 @@ export default class SyncResolver {
     // eslint-disable-next-line no-cond-assign
     while ((cursor = stack.pop())) {
       passed.add(cursor);
-      nearestNodeModule = this.resolveNodeModuleCache.get(path.resolve(cursor, request));
+      nearestNodeModule = this.resolveNodeModuleCache.get(`${cursor}|${request}`);
 
       if (nearestNodeModule !== undefined) {
         return nearestNodeModule;
@@ -340,7 +340,7 @@ export default class SyncResolver {
 
         if (resolvedFile) {
           for (const el of passed) {
-            this.resolveNodeModuleCache.set(path.resolve(el, request), resolvedFile);
+            this.resolveNodeModuleCache.set(`${el}|${request}`, resolvedFile);
           }
 
           return resolvedFile;
@@ -350,7 +350,7 @@ export default class SyncResolver {
 
         if (resolvedInDir) {
           for (const el of passed) {
-            this.resolveNodeModuleCache.set(path.resolve(el, request), resolvedInDir);
+            this.resolveNodeModuleCache.set(`${el}|${request}`, resolvedInDir);
           }
           return resolvedInDir;
         }
@@ -364,7 +364,7 @@ export default class SyncResolver {
     }
 
     for (const el of passed) {
-      this.resolveNodeModuleCache.set(path.resolve(el, request), null);
+      this.resolveNodeModuleCache.set(`${el}|${request}`, null);
     }
 
     return null;
