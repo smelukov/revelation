@@ -1,6 +1,6 @@
 # revelation
 
-Fast node.js modules resolve.
+Fast node.js modules resolver.
 
 [![npm version](https://badge.fury.io/js/revelation-resolver.svg)](https://badge.fury.io/js/revelation-resolver)
 

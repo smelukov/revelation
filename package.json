@@ -1,7 +1,7 @@
 {
   "name": "revelation-resolver",
   "version": "0.1.1",
-  "description": "Fast node.js modules resolve",
+  "description": "Fast node.js modules resolver",
   "keywords": [
     "resolver",
     "module",
