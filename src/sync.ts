@@ -216,8 +216,8 @@ export default class SyncResolver {
   private tryToResolveFile(absPath: string): string | null {
     let realpath = this.realpath(absPath);
 
-    if (realpath) {
-      return realpath.stats.isFile() ? realpath.abs : null;
+    if (realpath && realpath.stats.isFile()) {
+      return realpath.abs;
     }
 
     for (const ext of this.extensions) {
