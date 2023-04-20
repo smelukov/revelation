@@ -5,6 +5,7 @@
 ### Fixes
 
 - provides missing d.ts
+- clean dist
 
 ## 0.1.3 (20 April 2023)
 

@@ -8,6 +8,7 @@
     "path",
     "fs"
   ],
+  "files": ["dist", "!dist/**/*.snap", "!dist/**/*.spec.*"],
   "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "npm run lint && npm run test && npm run build",
