@@ -1,8 +1,12 @@
 # revelation
 
+[![npm version](https://badge.fury.io/js/revelation-resolver.svg)](https://badge.fury.io/js/revelation-resolver)
+
 Fast node.js modules resolver.
 
-[![npm version](https://badge.fury.io/js/revelation-resolver.svg)](https://badge.fury.io/js/revelation-resolver)
+## Why 
+
+This resolver supports webpack-like [mainFiles](https://webpack.js.org/configuration/resolve/#resolvemainfiles) option and [packageJSONModifier](#packagejsonmodifier-packagejsonmodifier) option to modify or collect any `package.json`. 
 
 ## Install
 
@@ -56,7 +60,7 @@ Target file system (e.g. [memfs](https://www.npmjs.com/package/memfs))
 
 A list of main files in directories
 
-['index'] by default
+`['index']` by default
 
 #### modules?: string[]
 
