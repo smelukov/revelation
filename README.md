@@ -6,7 +6,9 @@ Fast node.js modules resolver.
 
 ## Why 
 
-This resolver supports webpack-like [mainFiles](https://webpack.js.org/configuration/resolve/#resolvemainfiles) option and [packageJSONModifier](#packagejsonmodifier-packagejsonmodifier) option to modify or collect any `package.json`. 
+- supports webpack-like [mainFiles](https://webpack.js.org/configuration/resolve/#resolvemainfiles) option
+- provides [packageJSONModifier](#packagejsonmodifier-packagejsonmodifier) option to modify or collect any `package.json`
+- works fast
 
 ## Install
 
@@ -89,3 +91,21 @@ A function that will be executing for every `package.json` (once for every `pack
 Resolves `request` from `basedir`.
 
 `request` may be absolute, relative or package-based path.
+
+## Using with jest
+
+__rev-resolver.js:__
+
+```js
+const Revelation = require('revelation-resolver').default;
+const rev = new Revelation(options);
+module.exports = (request, options) => rev.resolve(options.basedir, request);
+```
+
+__jest.config.js:__
+
+```js
+module.exports = {
+  resolver: './path/to/rev-resolver'
+};
+```
