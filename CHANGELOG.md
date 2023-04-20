@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 (20 April 2023)
+
+### Fixes
+
+- provides missing d.ts
+
 ## 0.1.3 (20 April 2023)
 
 ### Fixes
